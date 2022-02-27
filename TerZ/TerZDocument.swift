@@ -10,14 +10,14 @@ import UniformTypeIdentifiers
 
 extension UTType {
     static var exampleText: UTType {
-        UTType(importedAs: "com.example.plain-text")
+        UTType(importedAs: "com.josiah.tsession")
     }
 }
 
-struct TerZDocument: FileDocument {
+struct TSession: FileDocument {
     var text: String
 
-    init(text: String = "Hello, world!") {
+    init(text: String = "say Hi") {
         self.text = text
     }
 
