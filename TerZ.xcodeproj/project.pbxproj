@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8A5048E627CAF9EB00C05E92 /* TerZApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5048E527CAF9EB00C05E92 /* TerZApp.swift */; };
+		8A5048E827CAF9EB00C05E92 /* TerZDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5048E727CAF9EB00C05E92 /* TerZDocument.swift */; };
+		8A5048EA27CAF9EB00C05E92 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5048E927CAF9EB00C05E92 /* ContentView.swift */; };
+		8A5048EC27CAF9EF00C05E92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A5048EB27CAF9EF00C05E92 /* Assets.xcassets */; };
+		8A5048EF27CAF9EF00C05E92 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A5048EE27CAF9EF00C05E92 /* Preview Assets.xcassets */; };
+		8A5048FA27CAF9F000C05E92 /* TerZTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5048F927CAF9F000C05E92 /* TerZTests.swift */; };
+		8A50490427CAF9F000C05E92 /* TerZUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A50490327CAF9F000C05E92 /* TerZUITests.swift */; };
+		8A50490627CAF9F000C05E92 /* TerZUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A50490527CAF9F000C05E92 /* TerZUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8A5048F627CAF9F000C05E92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A5048DA27CAF9EB00C05E92 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A5048E127CAF9EB00C05E92;
+			remoteInfo = TerZ;
+		};
+		8A50490027CAF9F000C05E92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A5048DA27CAF9EB00C05E92 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A5048E127CAF9EB00C05E92;
+			remoteInfo = TerZ;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8A5048E227CAF9EB00C05E92 /* TerZ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TerZ.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A5048E527CAF9EB00C05E92 /* TerZApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerZApp.swift; sourceTree = "<group>"; };
+		8A5048E727CAF9EB00C05E92 /* TerZDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerZDocument.swift; sourceTree = "<group>"; };
+		8A5048E927CAF9EB00C05E92 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8A5048EB27CAF9EF00C05E92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8A5048EE27CAF9EF00C05E92 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8A5048F027CAF9EF00C05E92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A5048F527CAF9F000C05E92 /* TerZTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TerZTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A5048F927CAF9F000C05E92 /* TerZTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerZTests.swift; sourceTree = "<group>"; };
+		8A5048FF27CAF9F000C05E92 /* TerZUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TerZUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A50490327CAF9F000C05E92 /* TerZUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerZUITests.swift; sourceTree = "<group>"; };
+		8A50490527CAF9F000C05E92 /* TerZUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerZUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8A5048DF27CAF9EB00C05E92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A5048F227CAF9F000C05E92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A5048FC27CAF9F000C05E92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8A5048D927CAF9EB00C05E92 = {
+			isa = PBXGroup;
+			children = (
+				8A5048E427CAF9EB00C05E92 /* TerZ */,
+				8A5048F827CAF9F000C05E92 /* TerZTests */,
+				8A50490227CAF9F000C05E92 /* TerZUITests */,
+				8A5048E327CAF9EB00C05E92 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8A5048E327CAF9EB00C05E92 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8A5048E227CAF9EB00C05E92 /* TerZ.app */,
+				8A5048F527CAF9F000C05E92 /* TerZTests.xctest */,
+				8A5048FF27CAF9F000C05E92 /* TerZUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8A5048E427CAF9EB00C05E92 /* TerZ */ = {
+			isa = PBXGroup;
+			children = (
+				8A5048E527CAF9EB00C05E92 /* TerZApp.swift */,
+				8A5048E727CAF9EB00C05E92 /* TerZDocument.swift */,
+				8A5048E927CAF9EB00C05E92 /* ContentView.swift */,
+				8A5048EB27CAF9EF00C05E92 /* Assets.xcassets */,
+				8A5048F027CAF9EF00C05E92 /* Info.plist */,
+				8A5048ED27CAF9EF00C05E92 /* Preview Content */,
+			);
+			path = TerZ;
+			sourceTree = "<group>";
+		};
+		8A5048ED27CAF9EF00C05E92 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8A5048EE27CAF9EF00C05E92 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8A5048F827CAF9F000C05E92 /* TerZTests */ = {
+			isa = PBXGroup;
+			children = (
+				8A5048F927CAF9F000C05E92 /* TerZTests.swift */,
+			);
+			path = TerZTests;
+			sourceTree = "<group>";
+		};
+		8A50490227CAF9F000C05E92 /* TerZUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8A50490327CAF9F000C05E92 /* TerZUITests.swift */,
+				8A50490527CAF9F000C05E92 /* TerZUITestsLaunchTests.swift */,
+			);
+			path = TerZUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8A5048E127CAF9EB00C05E92 /* TerZ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A50490927CAF9F000C05E92 /* Build configuration list for PBXNativeTarget "TerZ" */;
+			buildPhases = (
+				8A5048DE27CAF9EB00C05E92 /* Sources */,
+				8A5048DF27CAF9EB00C05E92 /* Frameworks */,
+				8A5048E027CAF9EB00C05E92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TerZ;
+			productName = TerZ;
+			productReference = 8A5048E227CAF9EB00C05E92 /* TerZ.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8A5048F427CAF9F000C05E92 /* TerZTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A50490C27CAF9F000C05E92 /* Build configuration list for PBXNativeTarget "TerZTests" */;
+			buildPhases = (
+				8A5048F127CAF9F000C05E92 /* Sources */,
+				8A5048F227CAF9F000C05E92 /* Frameworks */,
+				8A5048F327CAF9F000C05E92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A5048F727CAF9F000C05E92 /* PBXTargetDependency */,
+			);
+			name = TerZTests;
+			productName = TerZTests;
+			productReference = 8A5048F527CAF9F000C05E92 /* TerZTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8A5048FE27CAF9F000C05E92 /* TerZUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A50490F27CAF9F000C05E92 /* Build configuration list for PBXNativeTarget "TerZUITests" */;
+			buildPhases = (
+				8A5048FB27CAF9F000C05E92 /* Sources */,
+				8A5048FC27CAF9F000C05E92 /* Frameworks */,
+				8A5048FD27CAF9F000C05E92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A50490127CAF9F000C05E92 /* PBXTargetDependency */,
+			);
+			name = TerZUITests;
+			productName = TerZUITests;
+			productReference = 8A5048FF27CAF9F000C05E92 /* TerZUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8A5048DA27CAF9EB00C05E92 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					8A5048E127CAF9EB00C05E92 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					8A5048F427CAF9F000C05E92 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 8A5048E127CAF9EB00C05E92;
+					};
+					8A5048FE27CAF9F000C05E92 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 8A5048E127CAF9EB00C05E92;
+					};
+				};
+			};
+			buildConfigurationList = 8A5048DD27CAF9EB00C05E92 /* Build configuration list for PBXProject "TerZ" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8A5048D927CAF9EB00C05E92;
+			productRefGroup = 8A5048E327CAF9EB00C05E92 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8A5048E127CAF9EB00C05E92 /* TerZ */,
+				8A5048F427CAF9F000C05E92 /* TerZTests */,
+				8A5048FE27CAF9F000C05E92 /* TerZUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8A5048E027CAF9EB00C05E92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A5048EF27CAF9EF00C05E92 /* Preview Assets.xcassets in Resources */,
+				8A5048EC27CAF9EF00C05E92 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A5048F327CAF9F000C05E92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A5048FD27CAF9F000C05E92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8A5048DE27CAF9EB00C05E92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A5048E627CAF9EB00C05E92 /* TerZApp.swift in Sources */,
+				8A5048E827CAF9EB00C05E92 /* TerZDocument.swift in Sources */,
+				8A5048EA27CAF9EB00C05E92 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A5048F127CAF9F000C05E92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A5048FA27CAF9F000C05E92 /* TerZTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A5048FB27CAF9F000C05E92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A50490427CAF9F000C05E92 /* TerZUITests.swift in Sources */,
+				8A50490627CAF9F000C05E92 /* TerZUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8A5048F727CAF9F000C05E92 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A5048E127CAF9EB00C05E92 /* TerZ */;
+			targetProxy = 8A5048F627CAF9F000C05E92 /* PBXContainerItemProxy */;
+		};
+		8A50490127CAF9F000C05E92 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A5048E127CAF9EB00C05E92 /* TerZ */;
+			targetProxy = 8A50490027CAF9F000C05E92 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8A50490727CAF9F000C05E92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8A50490827CAF9F000C05E92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8A50490A27CAF9F000C05E92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TerZ/Preview Content\"";
+				DEVELOPMENT_TEAM = PY7A948CXQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TerZ/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportsDocumentBrowser = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.josiah.TerZ;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8A50490B27CAF9F000C05E92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TerZ/Preview Content\"";
+				DEVELOPMENT_TEAM = PY7A948CXQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TerZ/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportsDocumentBrowser = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.josiah.TerZ;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8A50490D27CAF9F000C05E92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PY7A948CXQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.josiah.TerZTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TerZ.app/TerZ";
+			};
+			name = Debug;
+		};
+		8A50490E27CAF9F000C05E92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PY7A948CXQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.josiah.TerZTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TerZ.app/TerZ";
+			};
+			name = Release;
+		};
+		8A50491027CAF9F000C05E92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PY7A948CXQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.josiah.TerZUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TerZ;
+			};
+			name = Debug;
+		};
+		8A50491127CAF9F000C05E92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PY7A948CXQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.josiah.TerZUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TerZ;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8A5048DD27CAF9EB00C05E92 /* Build configuration list for PBXProject "TerZ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A50490727CAF9F000C05E92 /* Debug */,
+				8A50490827CAF9F000C05E92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A50490927CAF9F000C05E92 /* Build configuration list for PBXNativeTarget "TerZ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A50490A27CAF9F000C05E92 /* Debug */,
+				8A50490B27CAF9F000C05E92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A50490C27CAF9F000C05E92 /* Build configuration list for PBXNativeTarget "TerZTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A50490D27CAF9F000C05E92 /* Debug */,
+				8A50490E27CAF9F000C05E92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A50490F27CAF9F000C05E92 /* Build configuration list for PBXNativeTarget "TerZUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A50491027CAF9F000C05E92 /* Debug */,
+				8A50491127CAF9F000C05E92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8A5048DA27CAF9EB00C05E92 /* Project object */;
+}
